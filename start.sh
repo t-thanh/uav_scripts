@@ -19,3 +19,4 @@ export LOGGER_DEBUG="false" # sets the ros console output level to debug
 
 source /usr/share/gazebo/setup.sh
 source ~/Master-Thesis/Quadrotor/ros1_ws/devel/setup.bash
+export UAV_NAME=uav1; export RUN_TYPE=simulation; export UAV_TYPE=f550; export ODOMETRY_TYPE=gps; export SENSORS="garmin_down"
